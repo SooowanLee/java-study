@@ -5,7 +5,7 @@ import java.util.regex.Pattern;
 
 public class User {
 
-    private  String name;
+    private final String name;
     private final Team team;
 
     public User(String name, Team team) {
